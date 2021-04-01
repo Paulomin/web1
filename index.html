@@ -3,19 +3,70 @@
 <head>
   <title>토트넘 핫스퍼FC</title>
   <meta charset="utf-8">
+  <style>
+    header {
+      background-color: powderblue;
+      border-bottom: 2px solid gray;
+
+    }
+    header a {
+      color:black
+  }
+    #fa {
+      text-decoration: none;
+    }
+    #menu ul {
+      list-style: none;
+      padding-left: 0px;
+      text-align: center;
+    }
+    #menu ul li {
+      display: inline;
+      border-right: 1px solid #c0c0c0;
+      padding: 0px 10px 0px 10px;
+      margin: 5px 0px 5px 0px;
+    }
+    #menu ul:first-child {
+      border-left: none;
+    }
+    #menu a {
+      text-decoration: none;
+      color: black
+    }
+    #photo1 {
+      text-align: center;
+      padding-top: 100px;
+    }
+    #h2font {
+      text-align: center;
+      font-size: 45px;
+      padding-top: 20px;
+    }
+    .title {
+      text-align:center;
+    }
+  </style>
 </head>
 <body>
-  <h1><a href="index.html">토트넘</a></h1>
-  <ul>
-    <li><a href="1.html">클럽의 역사</a></li>
-    <li><a href="2.html">엠블럼</a></li>
-    <li><a href="3.html">라이벌</a></li>
-  </ul>
-  <div style="text-align:center; background:powderblue;">
-   <img src="spurs.jpg" width="500;">
-  </div>
-  <div style="text-align:center; font-size:40px;">
-  <h2>tottenhamhotspur</h2>
-  </div>
+    <header>
+      <h1 class="title">
+        <a href="index.html" id=fa>토트넘</a>
+      </h1>
+      <div id="menu">
+        <ul>
+          <li><a href="1.html">역사</a></li>
+          <li><a href="2.html">엠블럼</a></li>
+          <li><a href="3.html">라이벌</a></li>
+        </ul>
+      </div>
+    </header>
+   <article>
+    <div id="photo1">
+     <img src="logo.png" title= "spurs" style="box-shadow: 5px 5px 5px 5px gray;">
+     </div>
+     <h2 id="h2font">tottenhamhotspur</h2>
+
+   </article>
 </body>
 </html>
+
